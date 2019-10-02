@@ -1,10 +1,9 @@
 def square_array(array)
 counter = 0 
 
-  while (array) do
-val = array[counter]
-array[counter] = val ** 2
-counter += 1
+while (array != nil) do 
+  array [counter] = array[counter] * array[counter]
+  counter += 1 
 end
 
 
