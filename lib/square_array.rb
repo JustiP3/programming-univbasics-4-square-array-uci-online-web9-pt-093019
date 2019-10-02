@@ -3,9 +3,11 @@ def square_array(array)
   new_array = array
  
   while (array) do
-new_array[counter] = array[counter] * array[counter]
+    val = array[counter]
+new_array[counter] = value * value 
 counter += 1
 end
+
 new_array
 
 end
