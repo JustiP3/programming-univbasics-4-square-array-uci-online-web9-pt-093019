@@ -4,7 +4,7 @@ def square_array(array)
  
   while (array) do
     val = array[counter]
-new_array[counter] = value * value 
+new_array[counter] = val * val
 counter += 1
 end
 
